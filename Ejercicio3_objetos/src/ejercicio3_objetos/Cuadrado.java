@@ -22,12 +22,6 @@ public class Cuadrado {
         int opcion;
         area = lado * lado;
         System.out.println("El area del cuadrado es: " + area);
-        /*System.out.println("¿Conservar datos? 1) Si 2) No");
-        Scanner entrada = new Scanner(System.in);
-        opcion = entrada.nextInt();
-        if(opcion == 1){area = lado;}
-        else{area = 0;}*/
-        
     }
     
     public void calcularPerimetro(){
